@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TempaConvo</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="lol">
+        <h1>TempaConvo</h1>
+        <h2>The Temperature Converter Website</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Also,time(IST):</h1>
+        <h1><div id = "clock" onload="currentTime()"></div></h1>
+    </div>
+</head>
+<body>
+    <img src="download.png" height="80" width="80">
+    <div class="container">
+        <div class="hed">Enter the temperature here</div>
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Degree</p>
+                <input type="number" class="takval" />
+            </div>
+            <div class="box1">
+                <p>Type</p>
+                <select name="" id="unit">                        
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option> 
+                    <option value="Kalvin">Kelvin</option> 
+                </select>
+            </div>
+        </div>
+        <div class="valuecontainer">
+            <p>Result</p>
+            <div class="value"></div>
+        </div>
+        <button onclick="temprature();" class="button">Convert</button>
+        
+    </div>
+    <script src="script.js"></script>      
+</body>
+<footer>
+    <div class="text">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+      <span>Created By <a href="#">Tushar Ghorui</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+  </footer>
+</html>
